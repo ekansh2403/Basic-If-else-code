@@ -26,7 +26,7 @@ int main(){
     cout<<"class attended is more than class held."<<endl;
   }
    char medical;
-  cout<<"If you have medical issue type 'Y' for yes and 'N' for no:";
+  cout<<"If you have medical issue type 'Y' for yes and 'N' for no:";// IN THIS WE ARE CHECKING MEDICAL CONDITION
   cin>>medical;
   if (percentage<75 && medical=='N'){
     cout<<"You are not allowed to sit in exam"<<endl;
